@@ -6,6 +6,8 @@ body {
     text-align: center;
     word-wrap: break-word;
     font-family: 'Asap Condensed', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 10%;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -64,8 +66,19 @@ h4 {
 .thumbnail img {
     height: 100%;
     width: 100%;
+    border: 2px solid #AD974F;
+    border-radius: 4px;
 }
 
 .fa-linkedin-square {
     font-size: 30px;
+}
+
+#contact {
+    background-color: #EAEAEA;
+}
+
+footer {
+    padding 10%;
+    margin 10%;
 }
