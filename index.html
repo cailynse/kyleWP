@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:400,700" rel="stylesheet">
+
     <script src="https://use.fontawesome.com/7a3aa25ccd.js"></script>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -20,7 +22,7 @@
 <body>
     <div id="content">
         <div id="banner">
-            <nav class="navbar navbar-default navbar-inverse">
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
                 <div class="container">
                     <div class="container-fluid">
                         <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,20 +39,20 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#">About</a></li>
+                                <li class="active"><a href="#banner">Home <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#about">About</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Roofing</a></li>
-                                        <li><a href="#">Fencing</a></li>
-                                        <li><a href="#">Decks</a></li>
+                                        <li><a href="#roofing">Roofing</a></li>
+                                        <li><a href="#fencing">Fencing</a></li>
+                                        <li><a href="#decks">Decks</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="#">Consultation</a></li>
+                                        <li><a href="#consultation">Consultation</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="#">Project Managment</a></li>
+                                        <li><a href="#projectManagment">Project Managment</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="#">Drafting</a></li>
+                                        <li><a href="#drafting">Drafting</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -87,20 +89,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3>About</h3>
+                        <h2>About</h2>
+                        <hr>
+                        <h3>The Company</h3>
                         <p>Generations Contracting started because owner and operator, Kyle Wilson, has a passion for working directly with customers to make their dreams a reality. Continuing a family tradition of working in construction the team at Generations Contracting wants to bring their years of experience to make your projects the best that they can be. We have a team of dedicated estimators, project managers, drafters and tradesmen that bring together knowledge and experience from all areas of construction and design. We are dedicated to offering you the highest quality of work at the lowest possible price. If you have any questions about an upcoming project feel free to give us a call. We're happy to offer advice free of charge.</p>
                         <hr>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12">
-                        <img class="img-circle" src="kyle.jpg">
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <h3>Owner Operator</h3>
-                        <p>Kyle Wilson was born in Carleton Place, Ontario and started working as a carpenter at 16. He worked along side his father and grandfather for many years building skills and developing his passion for contruction and design. This experience lead him to discover that his real passion lay in large scale projects. He persued this passion in the Contruction Engineering program at Loyalist College in Belleville, Ontario. Graduating top of his class in 2017 he was immediately able to secure a job as a Project Manager focusing on large scale projects. Since taking on this position he has truely learned what it takes to manage large scale and high value contruction jobs. He started this company to get back to his roots and bring his diverse set of skills to small businesses, and home owners as well as large corporations.</p>
+            <div id="bio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="img-circle" src="kyle.jpg">
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>The Owner</h3>
+                            <p>Kyle Wilson was born in Carleton Place, Ontario and started working as a carpenter at 16. He worked along side his father and grandfather for many years building skills and developing his passion for contruction and design. This experience lead him to discover his real passion - designing and managing complex projects. He persued this passion in the Contruction Engineering program at Loyalist College in Belleville, Ontario. Graduating top of his class in 2017 he was immediately able to secure a job as a Project Manager focusing on large scale projects. Since taking on this position he has truely learned what it takes to manage large scale and high value contruction jobs. He started this company to get back to his roots and bring his diverse set of skills to small businesses, and home owners as well as large corporations.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,35 +116,102 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3>Projects</h3>
+                        <h2>What we do</h2>
+                        <hr>
                     </div>
                 </div>
-                <div class="row proj">
-                    <div class="col-lg-4 col-sm-6">
-                        <h4>Roofing</h4>
-                        <div class="thumbnail"><img src="roofing.jpg"></div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <h4>Fencing</h4>
-                        <div class="thumbnail"><img src="fencing.jpg"></div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <h4>Decks</h4>
-                        <div class="thumbnail"><img src="decks.jpg"></div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <h4>Consulting</h4>
-                        <div class="thumbnail"><img src="consulting.jpg"></div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <h4>Project Management</h4>
-                        <div class="thumbnail"><img src="projectManagement.jpg"></div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <h4>Drafting</h4>
-                        <div class="thumbnail"><img src="drafting.jpg"></div>
+
+                <div id="roofing" class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Roofing</h3>
+                            <p>Roofing has been a speciality of Generations owners since its inception. From shingles to wood shakes our dedicated and fully insured team can help you get the best price and the best product available. A fully trained estimator will come and prepare your estimate once you decide you are ready to re-roof your home or business. Once you are prepared to move forward a project manager dedicated to your job will come to your home or business and walk you through the next steps of construction. The whole job will be supervised by one of our project managers and a full in depth inspection will be conducted at the end of the job by our owner Kyle Wilson. </p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="thumbnail"><img src="roofing.jpg"></div>
+                        </div>
                     </div>
                 </div>
+
+                <hr>
+
+                <div id="fencing" class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="thumbnail"><img src="fencing.jpg"></div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Fencing</h3>
+                            <p>Enjoy your outdoor space in privacy with a fence that suits your backyard and your budget. Our custom fences are constructed with four feet holes and the finest materials to give you an attractive, low maintenance fence you’ll enjoy for years.</p>
+                            <p>Our custom fences are constructed with four foot holes each of which is checked by our QC team at the end of the project.</p>
+                            <p>We offer free on-site estimates to take the time to fully explain the products you have the option of using for your new fence. From Red Cedar to PVC the decision is a big one, and one of our experts will be happy to explain the pros and cons of each. We can work with you to obtain all necessary permits you need to get the fence you want
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="decks" class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Decks</h3>
+                            <p>Generations Contracting has experience building dozens of decks ranging from PVC, Pressure treated, and Red cedar materials. We are happy to take your dream and turn it into reality or if you’d prefer we are also happy to design the whole thing so all you have to do is wait and see the perfect deck be created in your backyard.</p>
+                            <p>We can provide 3d rendering services at an extra cost, as well as upgrades such as outdoor kitchens, pergolas, and custom made planters.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="thumbnail"><img src="decks.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="consulting" class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="thumbnail"><img src="consulting.jpg"></div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Consulting</h3>
+                            <p> If you have already started your project or just need some advice before getting started, our team of construction consultants would be happy to point you in the right direction.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="projectManagment" class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Project Managment</h3>
+                            <p>Any project big or small can benefit from having a dedicated project manager. We will coordinate all construction activities and sub-trades as well as order all material for your project. You can rest easy knowing that all of the permits you need to get your project finished will be taken care of by one of our experts. If you want to renovate your home or build an addition a experienced project manager is an invaluable tool.</p>
+                            <p>The first steps is for you to reach out to our sales team to set up a meeting. Once we go over the project scope and budget we can start to go over how the project will go step by step. We will draft a full set of drawings and start getting all the necessary permits needed to get your project underway.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="thumbnail"><img src="projectManagement.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="drafting" class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="thumbnail"><img src="drafting.jpg"></div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Drafting</h3>
+                            <p>We can turn your dream into reality by drafting a full set of drawings for any projects. This can be useful for visualizing projects, seeking building permits, and getting accurate estimates from contractors. From additions to renovations a set of drawings or 3d renderings allows the owner to fully understand the scope of work they are taking on. We offer both As built drawings, Site plans, and 3d Renderings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
             </div>
         </div>
     </div>

@@ -5,6 +5,19 @@ html {
 body {
     text-align: center;
     word-wrap: break-word;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #AD974F;
+}
+
+.navbar-inverse .navbar-nav>li.active>a {
+    color: #EAEAEA;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #AD974F;
 }
 
 #banner {
@@ -14,8 +27,19 @@ body {
     width: 100%;
 }
 
+p {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
 #intro {
-    color: white;
+    color: #EAEAEA;
     padding: 5% 10% 20%;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.9), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
@@ -24,21 +48,22 @@ body {
     margin-top: 5%;
 }
 
+#bio {
+    padding: 5%;
+    background-color: #EAEAEA;
+}
+
 .img-circle {
     border-radius: 50%;
-    border: 2px solid grey;
-    height: 250px;
-    width: 250px;
+    border: 2px solid #AD974F;
+    height: 300px;
+    width: 300px;
+    margin-top: 10%;
 }
 
 .thumbnail img {
-    height: 250px;
+    height: 100%;
     width: 100%;
-}
-
-.proj div {
-    border: 1px solid grey;
-    border-radius: 2%;
 }
 
 .fa-linkedin-square {
