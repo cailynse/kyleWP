@@ -24,6 +24,13 @@ body {
     margin-top: 5%;
 }
 
+.img-circle {
+    border-radius: 50%;
+    border: 2px solid grey;
+    height: 250px;
+    width: 250px;
+}
+
 .thumbnail img {
     height: 250px;
     width: 100%;
